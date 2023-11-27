@@ -1,22 +1,31 @@
-import React from 'react'
-import { Typography } from "@mui/material"
+import { Typography } from "@mui/material";
 
 export const MuiTypography = () => {
   return (
-      <div>
-          <Typography variant="h1">h1 Heading</Typography>
-          <Typography variant="h2">h2 Heading</Typography>
-          <Typography variant="h3">h3 Heading</Typography>
-          <Typography variant="h4" component="h1" gutterBottom>h4 Heading</Typography>
-          <Typography variant="h5">h5 Heading</Typography>
-          <Typography variant="h6">h6 Heading</Typography>
-          
-          <Typography variant="subtitle1">Sub title 1</Typography>
-          <Typography variant="subtitle2">Sub title 2</Typography>
-          
-          <Typography variant="body1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum libero, voluptatem obcaecati repellendus inventore perspiciatis labore minus magni dolores eveniet mollitia delectus quasi vel quis aliquid neque fugiat. Modi, ipsa!</Typography>
-          <Typography variant="body2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque sit ratione debitis minus illum? Architecto vel eaque quaerat quos qui. Quos odio accusamus doloribus excepturi enim inventore quas ullam.</Typography>
+    <div>
+      <Typography variant="h1">h1 Heading</Typography>
+      <Typography variant="h2">h2 Heading</Typography>
+      <Typography variant="h3">h3 Heading</Typography>
+      <Typography variant="h4" component="h1" gutterBottom>
+        h4 Heading
+      </Typography>
+      <Typography variant="h5">h5 Heading</Typography>
+      <Typography variant="h6">h6 Heading</Typography>
 
+      <Typography variant="subtitle1">Sub title 1</Typography>
+      <Typography variant="subtitle2">Sub title 2</Typography>
+
+      <Typography variant="body1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum libero,
+        voluptatem obcaecati repellendus inventore perspiciatis labore minus
+        magni dolores eveniet mollitia delectus quasi vel quis aliquid neque
+        fugiat. Modi, ipsa!
+      </Typography>
+      <Typography variant="body2">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque
+        sit ratione debitis minus illum? Architecto vel eaque quaerat quos qui.
+        Quos odio accusamus doloribus excepturi enim inventore quas ullam.
+      </Typography>
     </div>
-  )
-}
+  );
+};
