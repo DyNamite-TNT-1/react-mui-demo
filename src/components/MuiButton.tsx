@@ -20,8 +20,6 @@ export const MuiButton = () => {
     updatedFormats: string[]
   ) => {
     setFormats(updatedFormats);
-    console.log({ updatedFormats });
-    console.log({ formats });
   };
   return (
     <Stack spacing={4}>
