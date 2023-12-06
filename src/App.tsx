@@ -2,7 +2,8 @@ import "./App.css";
 import { createTheme, colors, ThemeProvider } from "@mui/material";
 import { LocalizationProvider } from "@mui/x-date-pickers";
 import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
-import { MuiResponsiveness } from "./components/MuiResponsiveness";
+// import { MuiLoginForm } from "./components/hook-form/MuiLoginForm";
+// import { MuiResponsiveness } from "./components/MuiResponsiveness";
 // import { MuiMasonry } from "./components/MuiMasonry";
 // import { MuiTimeline } from "./components/MuiTimeline";
 // import { MuiTabs } from "./components/MuiTabs";
@@ -29,7 +30,7 @@ import { MuiResponsiveness } from "./components/MuiResponsiveness";
 // import { MuiImageList } from "./components/MuiImageList";
 // import { MuiAccordion } from "./components/MuiAccordion";
 // import { MuiCard } from "./components/MuiCard";
-// import { MuiLayout } from "./components/MuiLayout";
+import { MuiLayout } from "./components/MuiLayout";
 // import { MuiAutoComplete } from "./components/MuiAutoComplete";
 // import { MuiRating } from "./components/MuiRating";
 // import { MuiSwitch } from "./components/MuiSwitch";
@@ -68,8 +69,8 @@ function App() {
           {/* <MuiCheckbox/> */}
           {/* <MuiSwitch/> */}
           {/* <MuiRating /> */}
-          {/* <MuiAutoComplete/> */}
-          {/* <MuiLayout/> */}
+          {/* <MuiAutoComplete /> */}
+          <MuiLayout/>
           {/* <MuiCard/> */}
           {/* <MuiAccordion/> */}
           {/* <MuiImageList/> */}
@@ -96,7 +97,8 @@ function App() {
           {/* <MuiTabs/> */}
           {/* <MuiTimeline/> */}
           {/* <MuiMasonry/> */}
-          <MuiResponsiveness />
+          {/* <MuiResponsiveness /> */}
+          {/* <MuiLoginForm/> */}
         </div>
       </LocalizationProvider>
     </ThemeProvider>

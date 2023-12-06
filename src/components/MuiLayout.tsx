@@ -1,7 +1,7 @@
 import { Box, Stack, Divider, Grid, Paper } from "@mui/material";
 export const MuiLayout = () => {
   return (
-    <Paper sx={{padding: "32px"}} elevation={4}>
+    <Paper sx={{ padding: "32px" }} elevation={4}>
       <Stack
         sx={{ border: "1px solid" }}
         direction="row"
@@ -36,10 +36,19 @@ export const MuiLayout = () => {
             Item 1
           </Box>
         </Grid>
-        <Grid item xs={12} sm={6}>
-          <Box bgcolor="primary.light" p={2}>
-            Item 2
-          </Box>
+        <Grid item xs={12} sm={6} direction="row">
+          <Grid container spacing={2}>
+            <Grid item xs={4} sm={6}>
+              <Box bgcolor="primary.light" p={2}>
+                Item 2
+              </Box>
+            </Grid>
+            <Grid item xs={8} sm={6}>
+              <Box bgcolor="primary.light" p={2}>
+                Item 5
+              </Box>
+            </Grid>
+          </Grid>
         </Grid>
         <Grid item xs={12} sm={6}>
           <Box bgcolor="primary.light" p={2}>
